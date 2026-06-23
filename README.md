@@ -21,6 +21,20 @@ A German bank wants to understand which customers are likely to default on credi
 | Random Forest | ~0.76 |
 | Gradient Boosting | ~0.78 |
 
+## Visualizations
+
+The analysis includes the following visualizations (stored in the `images/` folder):
+
+- **01_exploratory_overview.png** — Exploratory data analysis with distributions and summary statistics
+- **02_credit_score_analysis.png** — Credit score model performance and risk tier breakdown
+- **03_model_evaluation.png** — ML model comparison and performance metrics
+- **04_executive_dashboard.png** — Executive summary dashboard with portfolio KPIs and risk exposure
+
+![Exploratory Overview](images/01_exploratory_overview.png)
+![Credit Score Analysis](images/02_credit_score_analysis.png)
+![Model Evaluation](images/03_model_evaluation.png)
+![Executive Dashboard](images/04_executive_dashboard.png)
+
 ## How to run
 
 ```bash
@@ -31,9 +45,14 @@ jupyter notebook credit_risk_analysis.ipynb
 ## Files
 
 ```
-credit_risk/
-├── credit_risk_analysis.ipynb   # Main notebook
-├── german_credit_data.csv       # Dataset (UCI-faithful structure)
+customer-credit-risk-analysis/
+├── credit_risk_analysis.ipynb      # Main notebook
+├── german_credit_data.csv          # Dataset (UCI-faithful structure)
+├── images/                         # Visualizations
+│   ├── 01_exploratory_overview.png
+│   ├── 02_credit_score_analysis.png
+│   ├── 03_model_evaluation.png
+│   └── 04_executive_dashboard.png
 └── README.md
 ```
 
